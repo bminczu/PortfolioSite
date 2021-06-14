@@ -264,7 +264,18 @@ cursor: pointer;
     
 }
 
+.about-wrapper{
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
 @media screen and (max-width:1200px){
     .main-container{
         width: 95%;
