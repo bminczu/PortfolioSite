@@ -3,14 +3,17 @@
 <html>
 <head>
   
-  <title>Bart Minczuk</title>
+    <title>Bart Minczuk</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum=scale=1, minimum-scale=1"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="default.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum=scale=1, minimum-scale=1"/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 
 </head>
 
@@ -26,9 +29,10 @@
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
                     <div class="dots-wrapper">
-                        <div id="dot-1" class="browser-dot"></div>
-                        <div id="dot-2" class="browser-dot"></div>
-                        <div id="dot-3" class="browser-dot"></div>
+                        <div  id="dot-1" class="browser-dot"></div>
+                        <div  id="dot-2" class="browser-dot"></div>
+                        <div  id="dot-3" class="browser-dot"></div>
+                        <div  id="dot-4" class="browser-dot"></div>
                     </div>
 
                     <ul id="navigation">
@@ -42,10 +46,10 @@
                     <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">Theme options will be saved for<br>your next visit</p>
@@ -176,6 +180,6 @@
         </div>
     </section>
     
-  <script src="js/scripts.js"></script>
+  <script type="text/Javascript" src="script.js"></script>
 </body>
 </html>

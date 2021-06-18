@@ -99,6 +99,9 @@ grid-template-areas:
     
 }
 
+#navigation a{
+    color: var(--mainText)
+}
 
 #navigation{
     margin: 0;
@@ -350,7 +353,7 @@ cursor: pointer;
  #contact-form textarea{
      min-height: 100px;
      font-size: 14px;
-     
+
  }
 
 .input-field{
